@@ -1,18 +1,17 @@
-uuid: bc7c133d-8560-42fc-9c81-5ef03f16ebed
+uuid: 374a0ef5-fabe-4fe6-aa17-2ec95a8a12d0
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.node.field_legacy
-    - node.type.article
-id: node.article.field_legacy
-field_name: field_legacy
+    - node.type.page
+id: node.page.sticky
+field_name: sticky
 entity_type: node
-bundle: article
-label: Legacy
+bundle: page
+label: 'Sticky at top of lists'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: 0
